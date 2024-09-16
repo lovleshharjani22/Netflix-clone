@@ -1,0 +1,54 @@
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.netflix-logo {
+    position: absolute;
+    top: 2rem;
+    height: 3rem;
+    left: 2rem;
+}
+
+.container {
+    position: absolute;
+    width: 25%;
+    height: 45rem;
+    max-width: 60rem;
+    background-color: black;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    opacity: 80%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 0;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}

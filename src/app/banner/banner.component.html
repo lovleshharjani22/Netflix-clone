@@ -1,0 +1,29 @@
+<iframe class="w-full h-full absolute" [src]="videoUrl" frameborder="0"></iframe>
+
+<div class="h-screen bg-white">
+    <div class="pt-[20%] px-24 absolute text-white bg-gradient-to-r from-black h-full">
+        <h1 class="text-6xl font-bold">{{bannerTitle}}</h1>
+        <p class="inline-block py-6 text-wl w-1/4 flex-wrap">{{bannerOverview}}</p>
+        <div class="flex items-center">
+            <button
+                class="bg-white text-black py-4 px-12 text-xl rounded-lg flex items-center hover:bg-opacity-70 transition-[1s]">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25" fill="currentColor">
+                    <path d="M8 5v14l11-7z" />
+                </svg>
+                Play
+            </button>
+            <button class="mx-2 bg-gray-500 text-white px-12 py-4 text-xl bg-opacity-50 rounded-lg hover:bg-opacity-70">
+                More Info
+            </button>
+            <!-- <button id="muteButton" (click)="toggleMute()"
+                class="bg-white text-black py-4 px-12 text-xl rounded-lg flex items-center hover:bg-opacity-70 transition-[1s]">
+                <svg id="muteIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25"
+                    fill="currentColor">
+                    <path
+                        d="M12 4l2.05 2.05c-.59.59-1.2.18-1.79-.41L8.59 2.29c-.59-.59-1.2-.18-1.79.41L7.21 4V7H5v10h2v-4l2 2c.59.59 1.2.18 1.79-.41L15.41 6.59c.59-.59 1.2-.18 1.79.41L16.79 8z" />
+                </svg>
+                <span id="muteButtonText">Mute</span>
+            </button> -->
+        </div>
+    </div>
+</div>
